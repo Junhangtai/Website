@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mimo Yoga Studio : contact page </title>
+    <link rel="stylesheet" href="yoga.css">
+    <script src="https://kit.fontawesome.com/67bd86ffdc.js" crossorigin="anonymous"></script>
+    <script src="hamburger.js" defer></script>
+    <script src="form.js" defer></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- to style for smaller screen -->
+        <header>
+            <h1>Mimo Yoga Studio</h1>
+            <a id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </header>
+        <nav id="mainNav">
+            <ul class="mainNav">
+                <li class="nav"><a href="index.html">Home</a></li>
+                <li class="nav"><a href="classes.html">Classes</a></li>
+                <li class="nav"><a href="schedule.html">Schedule</a></li>
+                <li class="nav active"><a href="contact.html">Contact</a></li>
+                <li class="nav"><a href="hello.html">Hello</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h3>Contact Mimo Yoga Studio</h2>
+                <div>
+                    <p class="form">required information is marked with an asterisk (*) </p>
+
+                    <form action="" method="post" id="form">
+                        <fieldset>
+                            <legend>Contact Form <i class="fa-regular fa-message"></i> </legend>
+                            <label for="name"> Name*: </label>
+                            <input type="text" name="name" id="name" accesskey="N" placeholder="Your name" required="true" aria-required="true">
+
+                            <label for="email"> E-mail*  <i class="fa-regular fa-envelope-open"></i> : </label>
+                            <input type="email" name="email" id="email" placeholder="Your email" required="true" accesskey="E" aria-required="true">
+
+                            <label for="message">Message* : </label>
+                            <textarea name="message" id="message" rows="5" cols="35" required="true" aria-required="true"> </textarea>
+
+                            <button type="submit" name="submit" id="submit" alt="submit" value="Submit"> Send Now   <i class="fa-solid fa-angles-right"></i></button>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div id="results"></div>
+
+        </main>
+        <footer>
+            <p>Copyright ©2022 Mimo Yoga Studio <a href="mailto:myemail.com">Jun Tai</a>
+
+        </footer>
+    </div>
+</body>
+
+</html>
